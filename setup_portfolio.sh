@@ -85,6 +85,7 @@ echo "Creating folder structure..."
 mkdir -p frontend/{projects,lab,shared/{images,css,js,components-react}}
 mkdir -p devops/{docker,kubernetes,terraform,ci-cd}
 mkdir -p scripts docs
+mkdir -p docs/{projects,lab,guides,templates}
 
 echo "Adding .gitkeep files to empty folders..."
 
