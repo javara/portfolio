@@ -75,32 +75,32 @@
 echo "Creating folder structure..."
 
 # === Create base structure ===
-mkdir -p portfolio/frontend/{projects,lab,shared/{images,css,js,components-react}}
-mkdir -p portfolio/devops/{docker,kubernetes,terraform,ci-cd}
-mkdir -p portfolio/{scripts,docs}
+mkdir -p frontend/{projects,lab,shared/{images,css,js,components-react}}
+mkdir -p devops/{docker,kubernetes,terraform,ci-cd}
+mkdir -p ./{scripts,docs}
 
 echo "Adding .gitkeep files to empty folders..."
 
 # === Add .gitkeep files ===
-touch portfolio/frontend/projects/.gitkeep
-touch portfolio/frontend/lab/.gitkeep
-touch portfolio/frontend/shared/images/.gitkeep
-touch portfolio/frontend/shared/css/.gitkeep
-touch portfolio/frontend/shared/js/.gitkeep
-touch portfolio/frontend/shared/components-react/.gitkeep
+touch ./frontend/projects/.gitkeep
+touch ./frontend/lab/.gitkeep
+touch ./frontend/shared/images/.gitkeep
+touch ./frontend/shared/css/.gitkeep
+touch ./frontend/shared/js/.gitkeep
+touch ./frontend/shared/components-react/.gitkeep
 
-touch portfolio/devops/docker/.gitkeep
-touch portfolio/devops/kubernetes/.gitkeep
-touch portfolio/devops/terraform/.gitkeep
-touch portfolio/devops/ci-cd/.gitkeep
+touch ./devops/docker/.gitkeep
+touch ./devops/kubernetes/.gitkeep
+touch ./devops/terraform/.gitkeep
+touch ./devops/ci-cd/.gitkeep
 
-touch portfolio/scripts/.gitkeep
-touch portfolio/docs/.gitkeep
+touch ./scripts/.gitkeep
+touch ./docs/.gitkeep
 
 echo "Generating README.md..."
 
 # === Create README.md ===
-cat << 'EOF' > portfolio/README.md
+cat << 'EOF' > ./README.md
 # Portfolio
 
 This repository contains my Front-end development projects (HTML, CSS, JavaScript, React) and will later include DevOps practices such as Docker, Kubernetes, Terraform, and CI/CD pipelines.
@@ -122,7 +122,7 @@ portfolio/
 ├── scripts/                      # Utility scripts
 │
 └── docs/                         # Documentation
-
+ 
 ## Purpose
 
 This structure is designed to support iterative learning: small projects, variations, reusable assets, and a clear separation between Front-end and DevOps work. It grows with my skills in a clean, organized, and scalable way.
