@@ -4,6 +4,7 @@ This repository contains my Front-end development projects (HTML, CSS, JavaScrip
 
 ## Folder Structure
 
+```
 portfolio/
 ├── frontend/
 │   ├── projects/                 # Complete, independent projects
@@ -19,6 +20,7 @@ portfolio/
 ├── scripts/                      # Utility scripts
 │
 └── docs/                         # Documentation
+```
  
 ## Purpose
 
